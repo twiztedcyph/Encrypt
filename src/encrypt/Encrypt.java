@@ -13,8 +13,10 @@ public class Encrypt
      */
     public static void main(String[] args)
     {
-        Vigenere v = new Vigenere("testing");
+        Caesar c = new Caesar();
         
-        System.out.println(v.encipher("fortheloveofmoney"));
+        System.out.println(c.encipher(12, "Encoded using a caesar shift of twelve."));
+        
+        System.out.println(c.decipher(0,  "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD"));
     }
 }

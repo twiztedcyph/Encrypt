@@ -8,4 +8,9 @@ package encrypt;
 public class SimpleEnigma
 {
     
+    
+    private class EnigmaWheel
+    {
+        
+    }
 }
